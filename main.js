@@ -74,7 +74,7 @@ function question5 () {
   for(i=0;i<data.length;i++){
   	
   		if(data[i].materials.length>=8){
-  			console.log(data[i].title+" has "+ data[i].materials.length + " material ");
+  			console.log(data[i].title+" has "+ data[i].materials.length + " materials: ");
   			for(j=0;j<data[i].materials.length;j++){
   				console.log("- " +data[i].materials[j]);
   			}
